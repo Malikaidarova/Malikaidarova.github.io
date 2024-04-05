@@ -41,7 +41,14 @@
 
         .section.active {
             display: block;
-        }
+        }/* Пример CSS-анимации */
+ .animate {
+ animation: fadein 2s; 
+ }
+ @keyframes fadein {
+ from { opacity: 0; } 
+ to { opacity: 1; } 
+ }
     </style>
 </head>
 <body>
@@ -56,6 +63,7 @@
         <li><a href="#audio" class="nav-link">Аудио</a></li>
          <li><a href="#video" class="nav-link">Видео</a></li>
         <li><a href="#map" class="nav-link">Карта</a></li>
+        <li><a href="#animation" class="nav-link">Анимация</a></li>
     </ul>
 </nav>
 
@@ -98,6 +106,11 @@
 <div id="map" class="section">
  <h2>Карта</h2>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14647.971933682631!2d76.92324513792008!3d43.240402241438744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836f18bf548af5%3A0x4eb3eb5eaef8aa6!2z0JrQsNC30LDRhdGB0LrQuNC5INCd0LDRhtC40L7QvdCw0LvRjNC90YvQuSDQo9C90LjQstC10YDRgdC40YLQtdGCINC40LzQtdC90Lgg0JDQu9GMLdCk0LDRgNCw0LHQuA!5e0!3m2!1sru!2skz!4v1712309779842!5m2!1sru!2skz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+  <div id="animation" class="section">
+ <h2>Анимация</h2>
+ <p class="animate"> Клубника бомба честно говоря...</p>
 </div>
     
 <!-- Подключение скрипта -->
